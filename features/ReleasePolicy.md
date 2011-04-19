@@ -20,7 +20,7 @@ The different parts follow the following conventions:
 ### What this means for RSpec users
 
 The first thing you'll notice is more frequent minor and major releases. We are
-already at rspec-2.4.x instead of 2.0.5 because we've steadily added new
+already at rspec-2.6.x instead of 2.0.5 because we've steadily added new
 features, so the 2.1, 2.2, and 2.3 releases were inappropriate for a patch
 release.
 

@@ -23,14 +23,14 @@ the `--help` flag to see the available options:
 
 Begin with a very simple example that expresses some basic desired behaviour.
 
-    # bowling_spec.rb
+    # game_spec.rb
     
-    describe Bowling do
+    describe Game do
       describe "#score" do
         it "returns 0 for all gutter game" do
-          bowling = Bowling.new
-          20.times { bowling.hit(0) }
-          bowling.score.should == 0
+          game = Game.new
+          20.times { game.roll(0) }
+          game.score.should == 0
         end
       end
     end
@@ -38,24 +38,24 @@ Begin with a very simple example that expresses some basic desired behaviour.
 Run the example and watch it fail.
 
 <pre style="color:red;">
-$ rspec bowling_spec.rb 
+$ rspec game_spec.rb 
   uninitialized constant Object::Bowling (NameError)
 </pre>
 
 Now write just enough code to make it pass.
 
 <pre>
-# bowling_spec.rb
+# game_spec.rb
 
-require './bowling'
+require './game'
 ...
 </pre>
 
 <pre>
-# bowling.rb
+# game.rb
 
 class Bowling
-  def hit(pins)
+  def roll(pins)
   end
 
   def score
@@ -67,7 +67,7 @@ end
 Run the example and bask in the joy that is green.
 
 <pre style="color:green;">
-$ rspec bowling_spec.rb --color --format doc
+$ rspec game_spec.rb --color --format doc
 
 Bowling
   #score
@@ -76,4 +76,3 @@ Bowling
 Finished in 0.00057 seconds
 1 example, 0 failures
 </pre>
-
