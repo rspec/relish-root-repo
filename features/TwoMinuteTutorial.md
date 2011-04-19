@@ -39,7 +39,7 @@ Run the example and watch it fail.
 
 <pre style="color:red;">
 $ rspec game_spec.rb 
-  uninitialized constant Object::Bowling (NameError)
+  uninitialized constant Object::Game (NameError)
 </pre>
 
 Now write just enough code to make it pass.
@@ -54,7 +54,7 @@ require './game'
 <pre>
 # game.rb
 
-class Bowling
+class Game
   def roll(pins)
   end
 
@@ -69,7 +69,7 @@ Run the example and bask in the joy that is green.
 <pre style="color:green;">
 $ rspec game_spec.rb --color --format doc
 
-Bowling
+Game
   #score
     returns 0 for all gutter game
 
