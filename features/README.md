@@ -1,5 +1,5 @@
 <br/>
-<div style="float: right; padding-left:5px"><a href="http://pragprog.com/titles/achbd/the-rspec-book" style="border:0" target="_blank"><img src="http://www.pragprog.com/images/covers/190x228/achbd.jpg" style="height:182px;width:152px;"></a></div>
+<br/>
 
 RSpec is a Behaviour-Driven Development tool for Ruby programmers. BDD is an
 approach to software development that combines Test-Driven Development, Domain
