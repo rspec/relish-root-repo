@@ -15,6 +15,7 @@ provides _executable documentation_. The Cucumber features you see here have
 all been run against RSpec's codebase, serving as specification, documentation
 _and_ regression tests of the behavior.
 
+You can find documentation for rspec-1 at [http://old.rspec.info](http://old.rspec.info)
 
 ### Upgrading from RSpec-1
 
