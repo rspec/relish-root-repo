@@ -9,5 +9,6 @@ Which _versions_ get installed is a bit trickier.
 The rspec gem uses a [Pessimistic Version
 Constraint](http://docs.rubygems.org/read/chapter/16#page74) (e.g. "~> 2.4.0")
 to declare its dependencies on the rspec-core, rspec-expectations, and
-rspec-mocks gems. This means that when you install rspec-2.4.0, you'll get the
-latest patch releases of rspec-2.4, but you won't get versions >= 2.5.
+rspec-mocks gems. This means that when you install rspec-2.6.0, you'll get the
+latest patch releases of rspec-core-2.4, rspec-expectations-2.4, and
+rspec-mocks-2.4, but you won't get versions >= 2.5.
