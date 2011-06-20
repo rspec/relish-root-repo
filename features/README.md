@@ -10,7 +10,7 @@ part of that equation, focusing on the documentation and design aspects of TDD.
 
 This is the official documentation site for RSpec-2. Much of the documentation
 you see here is written with another BDD tool called
-[Cucumber](http://github.com/aslakhellesoy/cucumber), which, like RSpec,
+[Cucumber](http://github.com/cucumber/cucumber), which, like RSpec,
 provides _executable documentation_. The Cucumber features you see here have
 all been run against RSpec's codebase, serving as specification, documentation
 _and_ regression tests of the behavior.
