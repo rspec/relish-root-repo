@@ -17,15 +17,15 @@ _and_ regression tests of the behavior.
 
 You can find documentation for rspec-1 at [http://old.rspec.info](http://old.rspec.info)
 
-### Upgrading from RSpec-1
-
-If you are upgrading from rspec-1, or beta versions of rspec-2, be sure to
-review the Upgrade information for each project.
-
 ### Mailing list
 
 [rspec-users](http://rubyforge.org/mailman/listinfo/rspec-users)<br/>
 [google group](http://groups.google.com/group/rspec) (must be a member of the rspec-users list to post)
+
+### Upgrading from RSpec-1
+
+If you are upgrading from rspec-1, or beta versions of rspec-2, be sure to
+review the Upgrade information for each project.
 
 ### Help make this documentation better!
 
