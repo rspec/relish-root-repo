@@ -5,7 +5,7 @@ part of that equation, focusing on the documentation and design aspects of TDD.
 
 ### Documentation
 
-This is the official documentation site for RSpec-2. Much of the documentation
+This is the official documentation site for RSpec. Much of the documentation
 you see here is written with [Cucumber](http://github.com/cucumber/cucumber),
 which, like RSpec, provides _executable documentation_. The Cucumber features
 you see here have all been run against RSpec's codebase, serving as
@@ -22,13 +22,15 @@ You can find documentation for rspec-1 at [http://old.rspec.info](http://old.rsp
 
 ### Mailing list
 
-[rspec-users](http://rubyforge.org/mailman/listinfo/rspec-users)<br/>
-[google group](http://groups.google.com/group/rspec) (must be a member of the rspec-users list to post)
+[rspec google group](http://groups.google.com/group/rspec)
 
-### Upgrading from RSpec-1
+### Upgrading from RSpec 2.x
 
-If you are upgrading from rspec-1, or beta versions of rspec-2, be sure to
-review the Upgrade information for each project.
+We've put a lot of effort into making the upgrade process from RSpec 2.x
+to 3.x as smooth as possible, in spite of the fact that it's our first
+chance in over 3 years to intentionally make backwards-incompatible
+changes. See the [upgrade](./upgrade) documentation for detailed
+step-by-step upgrade instructions.
 
 ### Help make this documentation better!
 
