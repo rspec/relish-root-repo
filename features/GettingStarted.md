@@ -1,18 +1,19 @@
 ### Prerequisites
 
-* Ruby 1.8.6 or higher
+* Ruby 1.8.7 or higher (we recommend Ruby 1.9 or 2.0)
 * Rubygems 1.3.7
 
 ### Install
 
     gem install rspec
 
-This installs four gems:
+This installs five gems:
 
 * rspec
 * rspec-core
 * rspec-expectations
 * rspec-mocks
+* rspec-support
 
 The rspec-core gem installs an `rspec` executable. Run the `rspec` command with
 the `--help` flag to see the available options:
@@ -51,18 +52,16 @@ require './game'
 ...
 </pre>
 
-<pre>
-# game.rb
+    # game.rb
 
-class Game
-  def roll(pins)
-  end
+    class Game
+      def roll(pins)
+      end
 
-  def score
-    0
-  end
-end
-</pre>
+      def score
+        0
+      end
+    end
 
 Run the example and bask in the joy that is green.
 
