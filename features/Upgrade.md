@@ -62,4 +62,3 @@ few projects and have been _amazed_ at how well it works.
   to the extent that your test suite uses the RSpec APIs as they are
   documented. The dynamic nature of Ruby makes it possible to use RSpec
   in ways that we can't support.
-
