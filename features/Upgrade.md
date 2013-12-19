@@ -11,7 +11,7 @@ upgrade document that describes _all_ of the breaking changes
 a detailed upgrade checklist.
 
 In addition, [Yuji Nakayama](https://twitter.com/nkym37) has been developing
-[transpec](https://github.com/yujinakayama/transpec) -- an absolutely amazing
+[Transpec](http://yujinakayama.me/transpec/) -- an absolutely amazing
 tool that can automatically upgrade most RSpec suites. We've tried it on a
 few projects and have been _amazed_ at how well it works.
 
