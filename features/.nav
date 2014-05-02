@@ -1,3 +1,4 @@
 - GettingStarted.md (Getting started)
-- ReleasePolicy.md (Release policy)
+- VersioningPolicy.md (Versioning policy)
 - GemVersions.md (Gem versions)
+- Upgrade.md (Upgrade)

@@ -1,7 +1,6 @@
 ### Prerequisites
 
-* Ruby 1.8.7 or higher (we recommend Ruby 1.9 or 2.0)
-* Rubygems 1.3.7
+* Ruby 1.8.7 or higher (2.0+ recommended)
 
 ### Install
 
@@ -24,17 +23,19 @@ the `--help` flag to see the available options:
 
 Begin with a very simple example that expresses some basic desired behaviour.
 
-    # game_spec.rb
-    
-    describe Game do
-      describe "#score" do
-        it "returns 0 for all gutter game" do
-          game = Game.new
-          20.times { game.roll(0) }
-          game.score.should == 0
-        end
-      end
+``` ruby
+# game_spec.rb
+
+RSpec.describe Game do
+  describe "#score" do
+    it "returns 0 for an all gutter game" do
+      game = Game.new
+      20.times { game.roll(0) }
+      expect(game.score).to eq(0)
     end
+  end
+end
+```
 
 Run the example and watch it fail.
 
@@ -52,16 +53,18 @@ require './game'
 ...
 </pre>
 
-    # game.rb
+``` ruby
+# game.rb
 
-    class Game
-      def roll(pins)
-      end
+class Game
+  def roll(pins)
+  end
 
-      def score
-        0
-      end
-    end
+  def score
+    0
+  end
+end
+```
 
 Run the example and bask in the joy that is green.
 
