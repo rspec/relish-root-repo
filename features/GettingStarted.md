@@ -69,7 +69,7 @@ end
 Run the example and bask in the joy that is green.
 
 <pre style="color:green;">
-$ rspec game_spec.rb --color --format doc
+$ rspec game_spec.rb --format doc
 
 Game
   #score
